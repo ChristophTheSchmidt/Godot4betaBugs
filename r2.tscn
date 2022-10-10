@@ -1,0 +1,93 @@
+[gd_scene load_steps=2 format=3 uid="uid://btq73kmgnf8lb"]
+
+[ext_resource type="Script" path="res://RoomsResource.gd" id="1_sp5dt"]
+
+[node name="r2" type="Node"]
+script = ExtResource("1_sp5dt")
+objects = []
+
+[node name="CL1" type="CanvasLayer" parent="."]
+layer = 11
+follow_viewport_enabled = true
+follow_viewport_scale = 1.5
+
+[node name="1" type="Node2D" parent="CL1"]
+y_sort_enabled = true
+
+[node name="CL2" type="CanvasLayer" parent="."]
+layer = 10
+follow_viewport_enabled = true
+follow_viewport_scale = 1.4
+
+[node name="2" type="Node2D" parent="CL2"]
+y_sort_enabled = true
+
+[node name="CL3" type="CanvasLayer" parent="."]
+layer = 9
+follow_viewport_enabled = true
+follow_viewport_scale = 1.3
+
+[node name="3" type="Node2D" parent="CL3"]
+y_sort_enabled = true
+
+[node name="CL4" type="CanvasLayer" parent="."]
+layer = 8
+follow_viewport_enabled = true
+follow_viewport_scale = 1.2
+
+[node name="4" type="Node2D" parent="CL4"]
+y_sort_enabled = true
+
+[node name="CL5" type="CanvasLayer" parent="."]
+layer = 7
+follow_viewport_enabled = true
+follow_viewport_scale = 1.1
+
+[node name="5" type="Node2D" parent="CL5"]
+y_sort_enabled = true
+
+[node name="CL6" type="CanvasLayer" parent="."]
+layer = 6
+follow_viewport_enabled = true
+
+[node name="6" type="Node2D" parent="CL6"]
+y_sort_enabled = true
+
+[node name="CL7" type="CanvasLayer" parent="."]
+layer = 5
+follow_viewport_enabled = true
+follow_viewport_scale = 0.9
+
+[node name="7" type="Node2D" parent="CL7"]
+y_sort_enabled = true
+
+[node name="CL8" type="CanvasLayer" parent="."]
+layer = 4
+follow_viewport_enabled = true
+follow_viewport_scale = 0.8
+
+[node name="8" type="Node2D" parent="CL8"]
+y_sort_enabled = true
+
+[node name="CL9" type="CanvasLayer" parent="."]
+layer = 3
+follow_viewport_enabled = true
+follow_viewport_scale = 0.7
+
+[node name="9" type="Node2D" parent="CL9"]
+y_sort_enabled = true
+
+[node name="CL10" type="CanvasLayer" parent="."]
+layer = 2
+follow_viewport_enabled = true
+follow_viewport_scale = 0.6
+
+[node name="10" type="Node2D" parent="CL10"]
+y_sort_enabled = true
+
+[node name="CL11" type="CanvasLayer" parent="."]
+follow_viewport_enabled = true
+follow_viewport_scale = 0.5
+
+[node name="11" type="Node2D" parent="CL11"]
+y_sort_enabled = true
